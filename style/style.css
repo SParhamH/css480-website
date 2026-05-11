@@ -1,10 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
-    background-color: white;
-=======
     background-color: azure;
->>>>>>> 425b062182490de44bc36ee045239253b550f262
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
@@ -12,46 +8,34 @@ body {
 }
 
 h1 {
-<<<<<<< HEAD
-  color: #1F2937;
+    color: #1F2937;
 }
 
 h2 {
-  color: #1F2937;
-  margin-top: 30px;
+    color: #34495e;
+    margin-top: 30px;
 }
 
 p {
-  color: #1F2937;
+    color: #1F2937;
 }
 
-=======
-  color: #2c3e50;
-}
-
-h2 {
-  color: #34495e;
-  margin-top: 30px;
-}
-
->>>>>>> 425b062182490de44bc36ee045239253b550f262
 img {
-  display: block;
-  margin: 20px 0;
-  border-radius: 10px;
+    display: block;
+    margin: 20px 0;
+    border-radius: 10px;
 }
 
-<<<<<<< HEAD
 button {
-  color: white;
-  background-color: #1D4ED8;
-  border: none;
-  padding: 10px 18px;
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+    color: white;
+    background-color: #1D4ED8;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 button:hover {
@@ -60,12 +44,8 @@ button:hover {
 }
 
 ul {
-  background-color: #EAF4FF;
-  color: #1F2937;
-=======
-ul {
-  background: white;
->>>>>>> 425b062182490de44bc36ee045239253b550f262
-  padding: 20px 40px;
-  border-radius: 10px;
+    background-color: #EAF4FF;
+    color: #1F2937;
+    padding: 20px 40px;
+    border-radius: 10px;
 }
