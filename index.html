@@ -8,26 +8,45 @@
     </head>
 
     <body>
-        <h1>Welcome to my Website</h1>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="things.html">Things to Read</a>
+        </nav>
+        <main id="mainContent">
+            <h1>Welcome to my Website</h1>
 
-        <img src="Images/HTML-and-CSS.png" alt="A cool image that shows the relationship of HTML and CSS" width="500" />
+            <img src="Images/HTML-and-CSS.png" alt="A cool image that shows the relationship of HTML and CSS" width="500" />
 
-        <h2>About Me:</h2>
-        <p>
-            Hi, my name is Parham Hamzei, and I am a student at UW Bothell majoring in CSSE. I enjoy learning new things and exploring different areas in technology. In my free time, I like playing video games and doing different activities to experience new things.
-        </p>
+            <h2>About Me:</h2>
+            <p>
+                Hi, my name is Parham Hamzei, and I am a student at UW Bothell majoring in CSSE. I enjoy learning new things and exploring different areas in technology. In my free time, I like playing video games and doing different activities to experience new things.
+            </p>
 
-        <p>
-            Here's a basic fun thing to check out. Click the button below to sort the following list. 
-        </p>
+            <p>
+                Here's a basic fun thing to check out. Click the button below to sort the following list. 
+            </p>
 
-        <button onclick="sortList()">re-sort</button>
-        <ul id="interestList">
-            <li>Programming</li>
-            <li>Gaming</li>
-            <li>Technology</li>
-            <li>Learning new skills</li>
-        </ul>
+            <button onclick="sortList()">re-sort</button>
+            <ul id="interestList">
+                <li>Programming</li>
+                <li>Gaming</li>
+                <li>Technology</li>
+                <li>Learning new skills</li>
+            </ul>
+
+            <section class="keyboard-help">
+            <h2>Keyboard Access</h2>
+                <p>
+                    This site supports keyboard navigation. You can use Tab to move forward through links and buttons,
+                    Shift + Tab to move backward, and Enter to activate a selected link or button.
+                </p>
+                <p>
+                    
+                    I also added skip links and visible focus outlines so users can move through the site more efficiently and clearly see which item is currently selected.
+                </p>
+            </section>
+        </main>
+
         <script src="scripts/main.js"></script>
     </body>
 </html>

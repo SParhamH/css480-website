@@ -49,3 +49,46 @@ ul {
     padding: 20px 40px;
     border-radius: 10px;
 }
+
+.keyboard-help {
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.navbar {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    background-color: #EAF4FF;
+    padding: 14px 18px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #1F2937;
+    font-weight: 600;
+    padding: 10px 14px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navbar a:hover {
+    background-color: #dbeafe;
+}
+
+.navbar a.active {
+    background-color: #1D4ED8;
+    color: white;
+}
+
+a:focus,
+button:focus {
+    outline: 4px solid #f59e0b;
+    outline-offset: 4px;
+    box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.25);
+}
