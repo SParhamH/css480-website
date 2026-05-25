@@ -92,3 +92,71 @@ button:focus {
     outline-offset: 4px;
     box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.25);
 }
+
+.hero-image {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.intro-box {
+    background-color: white;
+    padding: 18px;
+    border-left: 8px solid #1D4ED8;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.opportunity-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.opportunity-card {
+    background-color: white;
+    padding: 14px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+}
+
+.opportunity-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    margin: 0 0 12px 0;
+}
+
+.opportunity-card h3 {
+    color: #1D4ED8;
+    margin-bottom: 8px;
+}
+
+.big-idea {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.big-idea h2,
+.big-idea p {
+    color: white;
+}
+
+.design-note {
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+@media (max-width: 800px) {
+    .opportunity-cards {
+        grid-template-columns: 1fr;
+    }
+}
